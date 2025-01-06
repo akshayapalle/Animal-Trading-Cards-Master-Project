@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Animal Trading Cards</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="card">
+        <!-- Elephant's name -->
+        <h3 class="animal-name">Elephant</h3>
+        <!-- Elephant's image -->
+        <img src="elephant.jpg" alt="Elephant" class="animal-image">
+        <div class="animal-info">
+            <!-- Elephant's interesting fact -->
+            <p class="interesting-fact">
+                Elephants can recognize themselves in a mirror, a sign of self-awareness and intelligence.
+            </p>
+            <ul class="animal-list">
+                <!-- Elephant's list items -->
+                <li><span>Scientific Name</span>: Loxodonta</li>
+                <li><span>Average Height</span>: 3 meters</li>
+                <li><span>Average Lifespan</span>: 60-70 years</li>
+                <li><span>Habitat</span>: Savannas, forests, and deserts</li>
+            </ul>
+            <!-- Elephant's description -->
+            <p class="animal-description">
+                Elephants are the largest land animals on Earth. They are known for their intelligence, strong family bonds, and iconic trunks. They play a vital role in ecosystems by spreading seeds and shaping landscapes.
+            </p>
+        </div>
+    </div>
+</body>
+</html>
