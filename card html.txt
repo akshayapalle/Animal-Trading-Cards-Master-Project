@@ -1,32 +1,40 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset="utf-8">
-    <title>Animal Trading Cards</title>
-    <link rel="stylesheet" type="text/css" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animal Trading Card</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="card">
-        <!-- Elephant's name -->
-        <h3 class="animal-name">Elephant</h3>
-        <!-- Elephant's image -->
-        <img src="elephant.jpg" alt="Elephant" class="animal-image">
-        <div class="animal-info">
-            <!-- Elephant's interesting fact -->
-            <p class="interesting-fact">
-                Elephants can recognize themselves in a mirror, a sign of self-awareness and intelligence.
-            </p>
-            <ul class="animal-list">
-                <!-- Elephant's list items -->
-                <li><span>Scientific Name</span>: Loxodonta</li>
-                <li><span>Average Height</span>: 3 meters</li>
-                <li><span>Average Lifespan</span>: 60-70 years</li>
-                <li><span>Habitat</span>: Savannas, forests, and deserts</li>
-            </ul>
-            <!-- Elephant's description -->
-            <p class="animal-description">
-                Elephants are the largest land animals on Earth. They are known for their intelligence, strong family bonds, and iconic trunks. They play a vital role in ecosystems by spreading seeds and shaping landscapes.
-            </p>
+    <div class="container">
+        <div class="card">
+            <!-- Animal Name -->
+            <h3 class="animal-name">Elephant</h3>
+            
+            <!-- Animal Image -->
+            <img class="animal-image" src="elephant.jpg" alt="Elephant">
+            
+            <!-- Animal Information -->
+            <div class="animal-info">
+                <!-- Interesting Fact -->
+                <p class="interesting-fact">
+                    Elephants use their trunks to drink, smell, and communicate with other elephants.
+                </p>
+                
+                <!-- List of Details -->
+                <ul class="animal-details">
+                    <li><span>Scientific Name</span>: Loxodonta</li>
+                    <li><span>Average Weight</span>: 6,000 kg</li>
+                    <li><span>Average Lifespan</span>: 60-70 years</li>
+                    <li><span>Habitat</span>: Grasslands and forests</li>
+                </ul>
+                
+                <!-- Description -->
+                <p class="animal-description">
+                    Elephants are the largest land animals on Earth, known for their incredible memory and social behavior. They play a crucial role in maintaining their ecosystems by spreading seeds and creating pathways in dense forests.
+                </p>
+            </div>
         </div>
     </div>
 </body>
