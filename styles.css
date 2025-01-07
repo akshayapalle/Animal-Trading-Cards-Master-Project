@@ -1,63 +1,67 @@
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f9f9f9;
+/* Centers the card in the browser */
+.container {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh; /* Full viewport height */
+    background-color: #f5f5f5; /* Light background color */
     margin: 0;
 }
 
-/* Card Container */
+/* Styles for the card */
 .card {
-    width: 340px;
-    border: 2px solid #ddd;
-    border-radius: 10px;
-    background-color: #fff;
-    padding: 16px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    text-align: center;
+    width: 330px; /* Fixed card width */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds shadow to the card */
+    border-radius: 10px; /* Rounded corners for the card */
+    overflow: hidden;
+    background: #fff; /* White background for the card */
+    padding: 15px; /* Inner spacing */
 }
 
-/* Animal Name */
+/* Animal name */
 .animal-name {
-    font-size: 24px;
+    text-align: center;
+    font-size: 1.5rem; /* Larger font size */
     font-weight: bold;
-    margin-bottom: 16px;
+    margin-bottom: 15px;
 }
 
-/* Animal Image */
+/* Animal image */
 .animal-image {
-    width: 300px;
-    height: auto;
-    border-radius: 8px;
-    margin-bottom: 16px;
+    display: block;
+    margin: 0 auto 15px; /* Centers image */
+    width: 300px; /* Fixed width */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 5px; /* Slightly rounded corners */
 }
 
-/* Interesting Fact */
+/* Animal information */
+.animal-info {
+    border: 2px solid #ccc; /* Light gray border */
+    padding: 15px; /* Inner spacing */
+    border-radius: 5px; /* Rounded corners */
+}
+
+/* Interesting fact */
 .interesting-fact {
-    font-style: italic;
-    margin-bottom: 16px;
+    font-style: italic; /* Italic text */
+    margin-bottom: 10px;
 }
 
-/* Animal List */
-.animal-list {
-    list-style-type: none;
-    padding: 0;
-    margin-bottom: 16px;
+/* Animal details */
+.animal-details {
+    list-style-type: none; /* Removes bullets */
+    padding: 0; /* Removes padding */
+    margin: 0; /* Removes margin */
 }
 
-.animal-list li {
-    margin-bottom: 8px;
+.animal-details span {
+    font-weight: bold; /* Bold labels */
 }
 
-.animal-list span {
-    font-weight: bold;
-}
-
-/* Animal Description */
+/* Description */
 .animal-description {
-    font-size: 14px;
-    color: #555;
-    line-height: 1.6;
+    margin-top: 10px; /* Adds space above description */
+    font-size: 0.9rem; /* Slightly smaller font */
+    line-height: 1.5; /* Better readability */
 }
